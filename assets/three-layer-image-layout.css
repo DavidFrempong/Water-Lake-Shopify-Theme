@@ -1,0 +1,40 @@
+.section-container{
+    padding: 10px 20px;
+}
+
+.container-title{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container-title p{
+    font-size: 21px;
+  font-weight: 500;
+}
+
+.image-container{
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 0 auto;
+}
+
+.image-container a{
+    /* width: 33%; */
+    display: inline-block;
+    /* padding: 10%; */
+}
+
+.image-container img{
+    /* width: 33%; */
+    display: block;
+   width: 100%;
+  max-width: 250px; /* Set the maximum width of the image to 300px */
+  height: auto; /* Maintain the aspect ratio of the image */
+}
+
+@media only screen and (max-width: 500px) {
+  .image-container {
+    grid-template-columns: auto auto;
+  }
+}
