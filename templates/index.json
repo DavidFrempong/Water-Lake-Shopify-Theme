@@ -1,0 +1,299 @@
+{
+  "sections": {
+    "96101fb8-9d8f-41a8-afa1-139e52fd9d12": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9395858.jpg",
+            "heading": "Make your beard shine.",
+            "heading_size": "h1",
+            "heading_color": "#ffffff",
+            "subheading": "The smooth scent you love in an easy-to-carry bottle.",
+            "subheading_color": "#ffffff",
+            "button_label": "Shop Beard Oil",
+            "link": "shopify:\/\/collections\/all",
+            "button_background_color": "#619da2",
+            "button_text_color": "#ffffff",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        },
+        "e96e9c36-6460-4829-9076-3b0d9a93ea5d": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379076.jpg",
+            "heading": "A bottle of pure freshness.",
+            "heading_size": "h1",
+            "heading_color": "#ffffff",
+            "subheading": "Available for purchase today.",
+            "subheading_color": "#ffffff",
+            "button_label": "Button Label",
+            "link": "shopify:\/\/collections\/all",
+            "button_background_color": "#619da2",
+            "button_text_color": "#ffffff",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0",
+        "e96e9c36-6460-4829-9076-3b0d9a93ea5d"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8": {
+      "type": "two-image-layout",
+      "blocks": {
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-0": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/castlebeard-co-0D6aORtbl-c-unsplash.jpg",
+            "image_title": "Black Drop",
+            "title_color": "#ffffff",
+            "image_paragraph": "Tea-tree based men's facial oil",
+            "paragraph_color": "#ffffff",
+            "image_link": "shopify:\/\/products\/the-3p-fulfilled-snowboard",
+            "image_link_title": "Shop now",
+            "image_link_color": "#4e3c1d",
+            "image_link_background_color": "#a5dda8"
+          }
+        },
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-1": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/pexels-leef-parks-3809176.jpg",
+            "image_title": "Ocean View",
+            "title_color": "#ffffff",
+            "image_paragraph": "Purifying conditioning oil",
+            "paragraph_color": "#fafafa",
+            "image_link": "shopify:\/\/products\/the-collection-snowboard-liquid",
+            "image_link_title": "Shop now",
+            "image_link_color": "#4e3c1d",
+            "image_link_background_color": "#a5dda8"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-0",
+        "template--17982117052734__e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8-167737950749df4f15-1"
+      ],
+      "custom_css": [
+        "h3 {font-weight: 700;}"
+      ],
+      "settings": {
+        "title": "Hi, we're Bluefall.",
+        "title_color": "#000000",
+        "paragraph": "Our goal is to provide you with the best men's care products possible. See our product selection",
+        "paragraph_color": "#000000",
+        "link": "shopify:\/\/collections\/all",
+        "link_title": "here."
+      }
+    },
+    "24d7c57c-9b11-4fce-85fb-9fd07e454fcf": {
+      "type": "image-banner",
+      "blocks": {
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the community",
+            "heading_size": "h2"
+          }
+        },
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-1": {
+          "type": "text",
+          "settings": {
+            "text": "What's your self-care routine like? Let us know on Instagram @Bluewash",
+            "text_style": "body"
+          }
+        },
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Follow us on Instagram",
+            "button_link_1": "https:\/\/bluefall10.myshopify.com\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-0",
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-1",
+        "template--17982117052734__24d7c57c-9b11-4fce-85fb-9fd07e454fcf-167738522574dbace7-2"
+      ],
+      "custom_css": [
+        ".banner__box {background: none; color: #ffffff;}",
+        "h1,h2 {color: #ffffff; font-weight: 700;}",
+        ".button.button--primary {background: none; border: 1px solid;}"
+      ],
+      "settings": {
+        "background_color": "#8b4908",
+        "button_text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9379074.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16640590680b2f70f3": {
+      "type": "image-collage",
+      "settings": {
+        "image_collage_grid": "4",
+        "image": "shopify:\/\/shop_images\/castlebeard-co-0D6aORtbl-c-unsplash.jpg",
+        "imagetext": "Radiant",
+        "imagelink": "shopify:\/\/products\/the-collection-snowboard-hydrogen",
+        "image1": "shopify:\/\/shop_images\/pexels-rodnae-productions-7697224.jpg",
+        "image_1_text": "Fresh Look",
+        "image_1_link": "shopify:\/\/products\/the-collection-snowboard-liquid",
+        "image2": "shopify:\/\/shop_images\/pexels-monstera-6621339.jpg",
+        "image_2_text": "Silky smooth",
+        "image_2_link": "shopify:\/\/products\/the-complete-snowboard",
+        "image3": "shopify:\/\/shop_images\/pexels-monstera-6621323.jpg",
+        "image_3_text": "Radiant Cleansing",
+        "image_3_link": "shopify:\/\/products\/the-multi-location-snowboard"
+      }
+    },
+    "c0de255c-8a60-47ba-a772-39d42dee1389": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Smooth Rock: The freshest beard wash is now available.",
+            "heading_size": "h1"
+          }
+        },
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Apply every morning for a fresh and clean look to start your day.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop now",
+            "button_link": "shopify:\/\/products\/the-collection-snowboard-hydrogen"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-0",
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-1",
+        "template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389-1677386312ce6baef6-2"
+      ],
+      "custom_css": [
+        ".image-with-text {\/* background: #141414; *\/}",
+        ".image-with-text__media {border: none;}",
+        "#ImageWithText--template--17982117052734__c0de255c-8a60-47ba-a772-39d42dee1389 {background: #141414; color: #ffffff;}",
+        "h2 {color: #ffffff; font-weight: 600;}"
+      ],
+      "settings": {
+        "background_color": "#619da2",
+        "button_text_color": "#ffffff",
+        "image": "shopify:\/\/shop_images\/pexels-erik-mclean-9395858.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Latest men's self-care products",
+        "heading_size": "h2",
+        "description": "<p>Our latest selection, specially hand-picked for you.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "all",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": true,
+        "color_scheme": "background-1",
+        "image_ratio": "portrait",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 28,
+        "padding_bottom": 36
+      }
+    },
+    "22061fd9-f01c-4b98-a458-6c30cca4e9cf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Made for the classy man.<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "inverse",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
+    }
+  },
+  "order": [
+    "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
+    "e990af8c-4a6f-4c0b-98f6-aa9c42e76ed8",
+    "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
+    "16640590680b2f70f3",
+    "c0de255c-8a60-47ba-a772-39d42dee1389",
+    "featured_collection",
+    "22061fd9-f01c-4b98-a458-6c30cca4e9cf"
+  ]
+}

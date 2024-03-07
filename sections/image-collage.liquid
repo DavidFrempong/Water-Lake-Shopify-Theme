@@ -1,0 +1,207 @@
+{{ 'image-collage.css' | asset_url | stylesheet_tag }}
+
+<div class="image-banner image-banner--{{ section.settings.image_collage_grid }}">
+    <div class="background-overlay">
+        <a href="{{ section.settings.imagelink }}" class="image-banner-link">
+            <div class="image-banner-container">
+                {%- if section.settings.image != blank -%}
+                <img srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+                    src="{{ section.settings.image | image_url: width: 1500 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ section.settings.image.alt | escape }}" loading="lazy"
+                    width="{{ section.settings.image.width }}" height="{{ section.settings.image.height }}">
+                {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            </div>
+            <div class="product-title green">
+                <p id="imagetext">{{ section.settings.imagetext }}</p>
+            </div>
+        </a>
+    </div>
+    <div class="background-overlay">
+        <a href="{{ section.settings.image_1_link }}" class="image-banner-link">
+            <div class="image-banner-container">
+                {%- if section.settings.image1 != blank -%}
+                <img srcset="{%- if section.settings.image1.width >= 165 -%}{{ section.settings.image1 | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if section.settings.image1.width >= 360 -%}{{ section.settings.image1 | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if section.settings.image1.width >= 535 -%}{{ section.settings.image1 | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if section.settings.image1.width >= 750 -%}{{ section.settings.image1 | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if section.settings.image1.width >= 1070 -%}{{ section.settings.image1 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if section.settings.image1.width >= 1500 -%}{{ section.settings.image1 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ section.settings.image1 | image_url }} {{ section.settings.image1.width }}w"
+                    src="{{ section.settings.image1 | image_url: width: 1500 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ section.settings.image1.alt | escape }}" loading="lazy"
+                    width="{{ section.settings.image1.width }}" height="{{ section.settings.image1.height }}">
+                {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            </div>
+            <div class="product-title brown">
+                <p>{{ section.settings.image_1_text }}</p>
+            </div>
+        </a>
+    </div>
+    <div class="background-overlay">
+        <a href="{{ section.settings.image_2_link }}" class="image-banner-link">
+            <div class="image-banner-container">
+                {%- if section.settings.image2 != blank -%}
+                <img srcset="{%- if section.settings.image2.width >= 165 -%}{{ section.settings.image2 | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if section.settings.image2.width >= 360 -%}{{ section.settings.image2 | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if section.settings.image2.width >= 535 -%}{{ section.settings.image2 | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if section.settings.image2.width >= 750 -%}{{ section.settings.image2 | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if section.settings.image2.width >= 1070 -%}{{ section.settings.image2 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if section.settings.image2.width >= 1500 -%}{{ section.settings.image2 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ section.settings.image2 | image_url }} {{ section.settings.image2.width }}w"
+                    src="{{ section.settings.image2 | image_url: width: 1500 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ section.settings.image2.alt | escape }}" loading="lazy"
+                    width="{{ section.settings.image2.width }}" height="{{ section.settings.image2.height }}">
+                {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            </div>
+            <div class="product-title brown">
+                <p>{{ section.settings.image_2_text }}</p>
+            </div>
+        </a>
+    </div>
+    <div class="background-overlay">
+        <a href="{{ section.settings.image_3_link }}" class="image-banner-link">
+            <div class="image-banner-container">
+                {%- if section.settings.image3 != blank -%}
+                <img srcset="{%- if section.settings.image3.width >= 165 -%}{{ section.settings.image3 | image_url: width: 165 }} 165w,{%- endif -%}
+                    {%- if section.settings.image3.width >= 360 -%}{{ section.settings.image3 | image_url: width: 360 }} 360w,{%- endif -%}
+                    {%- if section.settings.image3.width >= 535 -%}{{ section.settings.image3 | image_url: width: 535 }} 535w,{%- endif -%}
+                    {%- if section.settings.image3.width >= 750 -%}{{ section.settings.image3 | image_url: width: 750 }} 750w,{%- endif -%}
+                    {%- if section.settings.image3.width >= 1070 -%}{{ section.settings.image3 | image_url: width: 1070 }} 1070w,{%- endif -%}
+                    {%- if section.settings.image3.width >= 1500 -%}{{ section.settings.image3 | image_url: width: 1500 }} 1500w,{%- endif -%}
+                    {{ section.settings.image3 | image_url }} {{ section.settings.image3.width }}w"
+                    src="{{ section.settings.image3 | image_url: width: 1500 }}"
+                    sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+                    alt="{{ section.settings.image3.alt | escape }}" loading="lazy"
+                    width="{{ section.settings.image3.width }}" height="{{ section.settings.image3.height }}">
+                {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+            </div>
+            <div class="product-title blue">
+                <p>{{ section.settings.image_3_text }}</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+
+
+{% schema %}
+{
+	"name": "Image Collage",
+	"class": "spaced-section spaced-section--full-width",
+	"settings": [
+    {
+			"type": "select",
+			"id": "image_collage_grid",
+			"options": [{
+					"value": "2",
+					"label": "2 Images"
+				},
+				{
+					"value": "4",
+					"label": "4 Images"
+				}
+			],
+			"default": "4",
+			"label": "Amount of Images in Row"
+		},
+
+        
+        {
+			"type": "image_picker",
+			"id": "image",
+			"label": "Image 1"
+		},
+        {
+            "type": "text",
+            "id": "imagetext",
+            "label": "Text on hover",
+            "default": "Sunny Days"  
+          },     
+          {
+            "type": "url",
+            "id": "imagelink",
+            "label": "Image link"
+          },        
+
+
+        {
+			"type": "image_picker",
+			"id": "image1",
+			"label": "Image 2"
+		},
+        {
+            "type": "text",
+            "id": "image_1_text",
+            "label": "Text on hover",
+            "default": "Leafy Green"  
+          },     
+          {
+            "type": "url",
+            "id": "image_1_link",
+            "label": "Image 2 link"
+          }, 
+
+
+        {
+			"type": "image_picker",
+			"id": "image2",
+			"label": "Image"
+		},
+        {
+            "type": "text",
+            "id": "image_2_text",
+            "label": "Text on hover",
+            "default": "Coffee & Biscuits"  
+          },     
+          {
+            "type": "url",
+            "id": "image_2_link",
+            "label": "Image 3 link"
+          }, 
+
+
+        {
+			"type": "image_picker",
+			"id": "image3",
+			"label": "Image"
+		},
+        {
+            "type": "text",
+            "id": "image_3_text",
+            "label": "Text on hover",
+            "default": "Blue Skies"  
+          },     
+          {
+            "type": "url",
+            "id": "image_3_link",
+            "label": "Image 4 link"
+          }
+
+
+	],
+	"blocks": [
+	],
+	"presets": [{
+		"name": "Image Collage",
+		"blocks": [
+		]
+	}]
+}
+{% endschema %}

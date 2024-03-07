@@ -1,0 +1,183 @@
+{{ 'two-image-layout.css' | asset_url | stylesheet_tag }}
+
+<div class="main_content">
+  <div class="heading">
+    <h2 class="title" style="color: {{section.settings.title_color}}">{{ section.settings.title | escape }}</h2>
+    <p class="paragraph" style="color: {{section.settings.paragraph_color}}">{{ section.settings.paragraph | escape }}
+      <a href="{{ section.settings.link | escape }}">{{ section.settings.link_title | escape }}</a>
+    </p>
+  </div>
+  <div class="images">
+    {% for block in section.blocks %}
+      {% case block.type %}
+        {% when 'image' %}
+        <a href="{{ block.settings.image_link | escape }}" class="individual_image">
+          <div class="image_container">
+            <div
+              class="{% if block.settings.image_container != blank %}{% else %}show_placeholder placeholder{% endif %}">
+              {%- if block.settings.image_container != blank -%}
+                <img
+                  srcset="{%- if block.settings.image_container.width >= 375 -%}
+                  {{ block.settings.image_container | image_url: width: 375 }} 375w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 550 -%}
+                  {{ block.settings.image_container | image_url: width: 550 }} 550w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 750 -%}
+                  {{ block.settings.image_container | image_url: width: 750 }} 750w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 1100 -%}
+                  {{ block.settings.image_container | image_url: width: 1100 }} 1100w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 1500 -%}
+                  {{ block.settings.image_container | image_url: width: 1500 }} 1500w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 1780 -%}
+                  {{ block.settings.image_container | image_url: width: 1780 }} 1780w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 2000 -%}
+                  {{ block.settings.image_container | image_url: width: 2000 }} 2000w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 3000 -%}
+                  {{ block.settings.image_container | image_url: width: 3000 }} 3000w,{%- endif -%}
+                {%- if block.settings.image_container.width >= 3840 -%}
+                  {{ block.settings.image_container | image_url: width: 3840 }} 3840w,{%- endif -%}
+                {{ block.settings.image_container | image_url }} {{ block.settings.image_container.width }}w"
+                sizes="100vw"
+                src="{{ block.settings.image_container | image_url: width: 1500 }}"
+                loading="lazy"
+                alt="{{ block.settings.image_container.alt | escape }}"
+                width="{{ block.settings.image_container.width }}"
+                height="{{ block.settings.image_container.width | divided_by: block.settings.image_container.aspect_ratio | round }}">
+              {%- else -%}
+                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+            <div class="image_information">
+              <h3 style="color: {{block.settings.title_color}}">{{ block.settings.image_title | escape }}</h3>
+              <p style="color: {{block.settings.paragraph_color}}">{{ block.settings.image_paragraph | escape }}</p>
+              <div class="image_link">
+                <a href="{{ block.settings.link | escape }}" style="color: {{block.settings.image_link_color}}; background-color: {{block.settings.image_link_background_color}}">{{ block.settings.image_link_title | escape }}</a>
+              </div>
+            </div>
+          </div>
+        </a>
+      {% endcase %}
+    {% endfor %}
+    {% comment %} <a href="#" class="individual_image">
+    <div class="image_container">
+    <img src="/images/castlebeard-co-0D6aORtbl-c-unsplash.jpg" />
+    <div class="image_information">
+    <h3>Title here</h3>
+    <p>Paragraph here</p>
+    <div class="image_link">
+    <a href="#">Link here</a>
+    </div>
+    </div>
+    </div>
+    </a> {% endcomment %}
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "Two Image Layout",
+    "class": "image-layout-full-width",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title of section",
+        "default": "Hi, we're Bluewash."
+      },
+      {
+        "type": "color",
+        "id": "title_color",
+        "label": "Title Color",
+        "default": "#000000"
+      },
+      {
+        "type": "text",
+        "id": "paragraph",
+        "label": "Paragraph",
+        "default": "Bluewash is a Shopify 2.0 Template."
+      },
+      {
+        "type": "color",
+        "id": "paragraph_color",
+        "label": "Paragraph Color",
+        "default": "#000000"
+      }, {
+        "type": "url",
+        "id": "link",
+        "label": "Link (optional)"
+      }, {
+        "type": "text",
+        "id": "link_title",
+        "label": "Link Title",
+        "default": "Link here"
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "Image",
+        "limit": 2,
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image_container",
+            "label": "Choose Image"
+          },
+          {
+            "type": "text",
+            "id": "image_title",
+            "label": "Title",
+            "default": "Title here"
+          },
+          {
+            "type": "color",
+            "id": "title_color",
+            "label": "Title Color",
+            "default": "#000000"
+          },
+          {
+            "type": "text",
+            "id": "image_paragraph",
+            "label": "Paragraph",
+            "default": "Paragraph here"
+          }, {
+            "type": "color",
+            "id": "paragraph_color",
+            "label": "Paragraph Color",
+            "default": "#000000"
+          }, {
+            "type": "url",
+            "id": "image_link",
+            "label": "Image Link"
+          }, {
+            "type": "text",
+            "id": "image_link_title",
+            "label": "Link Title",
+            "default": "Link here"
+          }, {
+            "type": "color",
+            "id": "image_link_color",
+            "label": "Link Text Color",
+            "default": "#000000"
+          }, {
+            "type": "color",
+            "id": "image_link_background_color",
+            "label": "Link Background Color",
+            "default": "#FFFFFF"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Two Image Layout",
+        "blocks": [
+          {
+            "type": "image"
+          }, {
+            "type": "image"
+          }
+        ]
+      }
+    ]
+  }
+{% endschema %}
