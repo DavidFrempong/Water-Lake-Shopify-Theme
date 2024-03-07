@@ -1,7 +1,7 @@
 <section
   id="MainProduct-{{ section.id }}"
   class="page-width section-{{ section.id }}-padding"
-  data-section="{{ section.id }}"
+  data-section="{{ section.id }}" style="background: #ffffff;"
 >
   {{ 'section-main-product.css' | asset_url | stylesheet_tag }}
   {{ 'component-accordion.css' | asset_url | stylesheet_tag }}
@@ -47,7 +47,7 @@
     >
   {%- endif -%}
 
-  <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+  <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}" style="flex-wrap: nowrap">
     <div class="grid__item product__media-wrapper">
       <media-gallery
         id="MediaGallery-{{ section.id }}"
@@ -164,7 +164,7 @@
               aria-label="{{ 'general.slider.previous_slide' | t }}"
               aria-controls="GalleryThumbnails-{{ section.id }}"
               data-step="3"
-            >
+            > 
               {% render 'icon-caret' %}
             </button>
             <ul
@@ -377,7 +377,7 @@
                 </label>
 
                 <quantity-input class="quantity">
-                  <button class="quantity__button no-js-hidden" name="minus" type="button">
+                  <button class="quantity__button border no-js-hidden" name="minus" type="button">
                     <span class="visually-hidden">
                       {{- 'products.product.quantity.decrease' | t: product: product.title | escape -}}
                     </span>
@@ -392,7 +392,7 @@
                     value="1"
                     form="{{ product_form_id }}"
                   >
-                  <button class="quantity__button no-js-hidden" name="plus" type="button">
+                  <button class="quantity__button border no-js-hidden" name="plus" type="button">
                     <span class="visually-hidden">
                       {{- 'products.product.quantity.increase' | t: product: product.title | escape -}}
                     </span>

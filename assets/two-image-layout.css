@@ -70,11 +70,13 @@ body{
     margin: 0px 10px;
   }
 
+
 .image_container img{
     width: 100%;
 
     max-width: 500px;
     max-height: 600px;
+  height: fit-content;
         filter: brightness(0.5);
     /* max-width: 500px; */
     /* height: 50%; */
@@ -163,3 +165,15 @@ body{
         margin: 10px 0px;
       }
 }
+
+/* @media only screen and (max-width: 500px) {
+  .image_container img {
+     max-height: 500px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .image_container img {
+     max-height: 400px;
+  }
+} */

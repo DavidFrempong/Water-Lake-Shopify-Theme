@@ -11,3 +11,13 @@
   margin: 0;
   margin-bottom: 3rem;
 }
+
+/* Start | Changes by David */
+
+@media screen and (max-width: 1000px) {
+  .product-recommendations__heading {
+    text-align: center;
+  }
+}
+
+/* End | Changes by David */

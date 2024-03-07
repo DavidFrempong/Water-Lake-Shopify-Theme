@@ -92,6 +92,7 @@ video {
     /* font-family: 'Raleway', sans-serif; */
     /* font-family: Montserrat, sans-serif; */
     /* font-family: 'Alegreya Sans', sans-serif; */
+  font-family: 'Poppins', sans-serif;
     vertical-align: baseline;
 }
 article,
@@ -131,7 +132,8 @@ table {
 h1,h2{
     /* font-family: 'Fuggles', cursive !important; */
     /* font-family: 'DM Sans', sans-serif; */
-    font-family: 'Syne', sans-serif;
+    /* font-family: 'Syne', sans-serif; */
+  font-family: 'Poppins', sans-serif;
 }
 .header1 {
     background: #fcfcfc;
