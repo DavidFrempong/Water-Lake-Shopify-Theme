@@ -4,6 +4,62 @@ slideshow-component {
   flex-direction: column;
 }
 
+.background-none {
+  background-color: none;
+  background: none;
+}
+
+.fade-h2 {
+  animation-name: fade1;
+  animation-duration: 0.25s;
+}
+
+.fade-subheading {
+  animation-name: fade2;
+  animation-duration: 0.5s;
+}
+
+.fade-button {
+  animation-name: fade3;
+  animation-duration: 0.75s;
+}
+
+@keyframes fade1 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 50px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fade2 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 75px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fade3 {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
 @media screen and (max-width: 989px) {
   .no-js slideshow-component .slider {
     padding-bottom: 3rem;
@@ -22,19 +78,20 @@ slideshow-component .slideshow.banner {
   position: relative;
   display: flex;
   flex-direction: column;
-  visibility: visible;
 }
 
 @media screen and (max-width: 749px) {
+
   .slideshow--placeholder.banner--mobile-bottom.banner--adapt_image .slideshow__media,
   .slideshow--placeholder.banner--adapt_image:not(.banner--mobile-bottom) {
-    height: 28rem;
+    height: 30rem;
   }
 }
 
 @media screen and (min-width: 750px) {
   .slideshow--placeholder.banner--adapt_image {
-    height: 56rem;
+    /* height: 56rem; */
+    height: 30rem;
   }
 }
 
@@ -45,7 +102,7 @@ slideshow-component .slideshow.banner {
   max-width: 54.5rem;
 }
 
-.slideshow__text > * {
+.slideshow__text>* {
   max-width: 100%;
 }
 
@@ -93,6 +150,7 @@ slideshow-component .slideshow.banner {
     text-align: right;
   }
 }
+
 
 .slideshow:not(.banner--mobile-bottom) .slideshow__text-wrapper {
   height: 100%;
@@ -188,6 +246,7 @@ slideshow-component:not(.page-width) .slider-buttons {
 }
 
 @media screen and (forced-colors: active) {
+
   .slideshow__autoplay path,
   .slideshow__autoplay:hover path {
     fill: CanvasText;
@@ -202,5 +261,5 @@ slideshow-component:not(.page-width) .slider-buttons {
 .slideshow__autoplay:not(.slideshow__autoplay--paused) .icon-play {
   visibility: hidden;
   opacity: 0;
-  transform: scale(0.8);
+  transform: scale(.8)
 }
