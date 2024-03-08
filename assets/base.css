@@ -3296,7 +3296,7 @@ details-disclosure > details {
 }
 
 .search-bar-mobile {
-  display: none;
+  /* display: none; */
 }
 
 .search-bar-desktop {
@@ -3325,7 +3325,7 @@ details-disclosure > details {
   }
 
   .search-bar-desktop {
-    display: none;
+    /* display: none; */
   }
 
   .header-top-container {
