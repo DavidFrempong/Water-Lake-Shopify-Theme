@@ -420,7 +420,7 @@
 
 
                     <!-- Changes by David | Search bar -->
-
+ {%- if section.settings.logo_position == 'middle-left' -%}
     <div class="search-bar-desktop">
   <div class="search-modal__content{% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} search-modal__content-top{% else %} search-modal__content-bottom{% endif %}" tabindex="-1">
   {%- if settings.predictive_search_enabled -%}
@@ -473,6 +473,7 @@
               {%- endif -%}
           </div>
     </div>
+       {%- endif -%}
                           
                     <!-- End of search bar-->
                     
@@ -1031,11 +1032,11 @@
       "options": [
         {
           "value": "middle-left",
-          "label": "t:sections.header.settings.logo_position.options__1.label"
+          "label": "Middle Left"
         },
         {
           "value": "middle-center",
-          "label": "t:sections.header.settings.logo_position.options__4.label"
+          "label": "Middle Center"
         }
       ],
       "default": "middle-left",
