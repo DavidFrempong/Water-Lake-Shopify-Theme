@@ -3312,6 +3312,10 @@ details-disclosure > details {
    margin: auto;
 }
 
+.flex-menu{
+  display: flex;
+}
+
 .mobile-logo {
   display: none;
 }
