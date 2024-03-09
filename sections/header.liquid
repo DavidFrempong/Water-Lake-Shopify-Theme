@@ -534,7 +534,7 @@
         </nav>
       {%- else -%}
         
-        <nav class="header__inline-menu{% if section.settings.logo_position == 'middle-center' %} flex-menu{% endif %}">
+        <nav class="header__inline-menu">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -718,7 +718,7 @@
 
     {%- if section.settings.menu != blank -%}
       {%- if section.settings.menu_type_desktop == 'dropdown' -%}
-        <nav class="header__inline-menu">
+         <nav class="header__inline-menu{% if section.settings.logo_position == 'middle-center' %} flex-menu{% endif %}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
