@@ -3305,6 +3305,7 @@ details-disclosure > details {
 
 .desktop-logo {
   display: block;
+  margin: auto;
 }
 
 .mobile-logo {
