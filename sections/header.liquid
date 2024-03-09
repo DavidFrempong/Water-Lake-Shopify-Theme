@@ -375,6 +375,8 @@
       </details-modal> -->
     {%- endif -%}
 
+    <!-- Middle Center Header View  -->
+    
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
@@ -419,6 +421,8 @@
     {%- endif -%}
 
 
+    
+   <!-- Middle Left Header View  -->
                     <!-- Changes by David | Search bar -->
  {%- if section.settings.logo_position == 'middle-left' -%}
     <div class="search-bar-desktop">
@@ -473,8 +477,7 @@
               {%- endif -%}
           </div>
     </div>
-       {%- endif -%}
-                          
+       {%- endif -%}         
                     <!-- End of search bar-->
                     
 
@@ -530,7 +533,8 @@
           </ul>
         </nav>
       {%- else -%}
-        <nav class="header__inline-menu">
+        
+        <nav class="header__inline-menu{% if section.settings.logo_position == 'middle-center' %} flex-menu{% endif %}">
           <ul class="list-menu list-menu--inline" role="list">
             {%- for link in section.settings.menu.links -%}
               <li>
@@ -578,7 +582,7 @@
     {%- endif -%} -->
 
 
-                          
+                            <!-- Middle Center Header View  --> 
     {%- if section.settings.logo_position == 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
         <h1 class="header__heading">
