@@ -1221,4 +1221,10 @@ a.product__text {
   }
 }
 
+@media screen and (min-width: 1000px) {
+  .product__modal-opener{
+    /* width: 70%; */
+  }
+}
+
 /* End | Changes by David */
