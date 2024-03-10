@@ -3333,14 +3333,7 @@ details-disclosure > details {
     text-align: left;
   }
 
-img{
-  opacity: 0;
-    transition: opacity 0.5s ease;
-}
 
-img .active {
-    opacity: 1;
-}
 
 
 @media screen and (max-width: 1000px) {
