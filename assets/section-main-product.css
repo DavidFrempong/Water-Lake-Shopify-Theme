@@ -1258,7 +1258,7 @@ a.product__text {
 @media screen and (min-width: 1000px) {
   .product__media {;
     width: 70%;
-    padding-top: 70%;
+    padding-top: 90% !important;
   }
 }
 
