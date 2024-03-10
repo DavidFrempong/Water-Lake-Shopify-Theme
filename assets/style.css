@@ -6262,3 +6262,11 @@ a:hover {
     width: 100%;
     z-index: 20;
 }
+
+/* Changes by David */
+@media screen and (min-width: 1000px) {
+  .product__modal-opener{
+    width: 70%;
+  }
+}
+/* Changes by David */
