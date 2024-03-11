@@ -209,174 +209,6 @@
         "show_text_below": true
       }
     },
-    "16640590680b2f70f3": {
-      "type": "image-collage",
-      "disabled": true,
-      "settings": {
-        "image_collage_grid": "4",
-        "imagetext": "Radiant",
-        "imagelink": "shopify:\/\/products\/the-collection-snowboard-hydrogen",
-        "image_1_text": "Fresh Look",
-        "image_1_link": "shopify:\/\/products\/the-collection-snowboard-liquid",
-        "image_2_text": "Silky smooth",
-        "image_2_link": "shopify:\/\/products\/the-complete-snowboard",
-        "image_3_text": "Radiant Cleansing",
-        "image_3_link": "shopify:\/\/products\/the-multi-location-snowboard"
-      }
-    },
-    "22061fd9-f01c-4b98-a458-6c30cca4e9cf": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Made for the classy man.<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0"
-      ],
-      "disabled": true,
-      "custom_css": [
-
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 72,
-        "padding_bottom": 72
-      }
-    },
-    "92bc159b-f29d-4ffa-831d-7d6d48ae02ce": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-heading-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Black Friday Early Access<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-text-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>25% off for new members!<\/p>"
-          }
-        },
-        "0c338218-c4df-44f1-b4a7-3bed983c06c1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Join for free today!<\/p>"
-          }
-        },
-        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1": {
-          "type": "button",
-          "settings": {
-            "button_label": "Men",
-            "button_link": "shopify:\/\/products\/mens-beard-oil",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "6580c5c3-9445-4030-89b5-2bec9e938635": {
-          "type": "button",
-          "settings": {
-            "button_label": "Women",
-            "button_link": "shopify:\/\/products\/the-3p-fulfilled-snowboard",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-heading-1",
-        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-text-1",
-        "0c338218-c4df-44f1-b4a7-3bed983c06c1",
-        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1",
-        "6580c5c3-9445-4030-89b5-2bec9e938635"
-      ],
-      "disabled": true,
-      "custom_css": [
-        ".rich-text {background: #0a0a0a; color: #b1c6ff;}",
-        "span {color: #b1c6ff; font-size: 15px;}",
-        ".rich-text__text:first-of-type {font-size: 60px; font-weight: 600;}",
-        ".rich-text__text {font-size: 25px;}",
-        ".rich-text__buttons {margin-top: 35px; max-width: 15rem;}",
-        ".rich-text__buttons a {background: #ffffff; color: #0a0a0a; font-weight: 600; border-radius: 20px;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "three_layer_image_layout_XhQkxy": {
-      "type": "three-layer-image-layout",
-      "blocks": {
-        "image_dnKYCq": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        },
-        "image_aDc77e": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        },
-        "image_bRwFcV": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        },
-        "image_zJrXeT": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        },
-        "image_W7b4WA": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        },
-        "image_mFgwpT": {
-          "type": "image",
-          "settings": {
-            "image_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_dnKYCq",
-        "image_aDc77e",
-        "image_bRwFcV",
-        "image_zJrXeT",
-        "image_W7b4WA",
-        "image_mFgwpT"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "body {background: #ffffff;}"
-      ],
-      "settings": {
-        "layout-title": ""
-      }
-    },
     "single_image_with_product_collage_nXLLnW": {
       "type": "single-image-with-product-collage",
       "blocks": {
@@ -462,16 +294,150 @@
         "content_layout_mobile": "column",
         "layout-title": "Shop the look."
       }
+    },
+    "92bc159b-f29d-4ffa-831d-7d6d48ae02ce": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Member's only<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get free shipping over $40<\/p>"
+          }
+        },
+        "0c338218-c4df-44f1-b4a7-3bed983c06c1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Join for free today!<\/p>"
+          }
+        },
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Men",
+            "button_link": "shopify:\/\/products\/mens-beard-oil",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "6580c5c3-9445-4030-89b5-2bec9e938635": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Women",
+            "button_link": "shopify:\/\/products\/the-3p-fulfilled-snowboard",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-heading-1",
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-text-1",
+        "0c338218-c4df-44f1-b4a7-3bed983c06c1",
+        "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1",
+        "6580c5c3-9445-4030-89b5-2bec9e938635"
+      ],
+      "custom_css": [
+        ".rich-text {background: #f3f3f3; color: #0a0a0a;}",
+        "span {color: #0a0a0a; font-size: 15px;}",
+        ".rich-text__text:first-of-type {font-size: 60px; font-weight: 600;}",
+        ".rich-text__text {font-size: 25px;}",
+        ".rich-text__buttons {margin-top: 35px; max-width: 15rem;}",
+        ".rich-text__buttons a {background: #0a0a0a; color: #ffffff; font-weight: 600; border-radius: 20px;}"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "three_layer_image_layout_XhQkxy": {
+      "type": "three-layer-image-layout",
+      "blocks": {
+        "image_dnKYCq": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/4_c1e26288-8243-46d6-b98a-d5facc3de665.png",
+            "image_link": ""
+          }
+        },
+        "image_aDc77e": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/1.png",
+            "image_link": ""
+          }
+        },
+        "image_bRwFcV": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/2.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dnKYCq",
+        "image_aDc77e",
+        "image_bRwFcV"
+      ],
+      "custom_css": [
+        "body {background: #ffffff; text-align: left;}"
+      ],
+      "settings": {
+        "layout-title": "Featured"
+      }
+    },
+    "22061fd9-f01c-4b98-a458-6c30cca4e9cf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Made for the classy man.<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "template--17982117052734__22061fd9-f01c-4b98-a458-6c30cca4e9cf-1677386054b269119f-0"
+      ],
+      "disabled": true,
+      "custom_css": [
+
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 72,
+        "padding_bottom": 72
+      }
     }
   },
   "order": [
     "96101fb8-9d8f-41a8-afa1-139e52fd9d12",
     "65cfd1f7-ee2f-4f22-ba07-b59c776e3138",
     "24d7c57c-9b11-4fce-85fb-9fd07e454fcf",
-    "16640590680b2f70f3",
-    "22061fd9-f01c-4b98-a458-6c30cca4e9cf",
+    "single_image_with_product_collage_nXLLnW",
     "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
     "three_layer_image_layout_XhQkxy",
-    "single_image_with_product_collage_nXLLnW"
+    "22061fd9-f01c-4b98-a458-6c30cca4e9cf"
   ]
 }
