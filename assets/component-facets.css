@@ -950,6 +950,13 @@ input.mobile-facets__checkbox {
   margin: 0;
 }
 
+@media screen and (min-width: 1000px) {
+  .product-count__text {
+   position: relative;
+   top: 10px;
+}
+}
+
 .product-count__text.loading {
   visibility: hidden;
 }
