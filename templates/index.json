@@ -27,14 +27,15 @@
         "e96e9c36-6460-4829-9076-3b0d9a93ea5d": {
           "type": "slide",
           "settings": {
-            "heading": "Pure freshness.",
+            "image": "shopify:\/\/shop_images\/young-man-portrait.jpg",
+            "heading": "Comfort fit.",
             "heading_size": "h1",
             "heading_color": "#ffffff",
             "subheading": "Available for purchase today.",
             "subheading_color": "#ffffff",
             "button_label": "Shop now",
             "link": "shopify:\/\/collections\/all",
-            "button_background_color": "#619da2",
+            "button_background_color": "#1e1e1e",
             "button_text_color": "#ffffff",
             "button_style_secondary": false,
             "box_align": "top-left",
@@ -43,11 +44,33 @@
             "image_overlay_opacity": 0,
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_8LQx4N": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hmgoepprod-_4_302c959a-cc3c-4cae-b2bb-76fcaf95bee7.png",
+            "heading": "Fit for the summer.",
+            "heading_size": "h1",
+            "heading_color": "#000000",
+            "subheading": "Men's tees for only $9.99.",
+            "subheading_color": "#0a0a0a",
+            "button_label": "Explore",
+            "link": "shopify:\/\/products\/short-sleeve-t-shirt-white",
+            "button_background_color": "#1e1e1e",
+            "button_text_color": "#ffffff",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0",
-        "e96e9c36-6460-4829-9076-3b0d9a93ea5d"
+        "e96e9c36-6460-4829-9076-3b0d9a93ea5d",
+        "slide_8LQx4N"
       ],
       "custom_css": [
         ".slideshow__slide {height: 100vh !important;}",
