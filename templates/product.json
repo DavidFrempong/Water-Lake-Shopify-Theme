@@ -237,12 +237,6 @@
     "82c6a802-903e-43d5-8c0f-9b97559db994": {
       "type": "collection-list",
       "blocks": {
-        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
         "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-1": {
           "type": "featured_collection",
           "settings": {
@@ -263,7 +257,6 @@
         }
       },
       "block_order": [
-        "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-0",
         "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-1",
         "template--17982117511486__82c6a802-903e-43d5-8c0f-9b97559db994-1684098394d460ca9f-2",
         "6e5ab670-4556-4cb2-956d-359a32e8be2b"
@@ -337,6 +330,40 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "three_layer_image_layout_TbnRVD": {
+      "type": "three-layer-image-layout",
+      "blocks": {
+        "image_B3Gcfn": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/hmgoepprod-_1.png",
+            "image_link": "shopify:\/\/products\/short-sleeve-t-shirt-white"
+          }
+        },
+        "image_i7YJyC": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/hmgoepprod-_2.png",
+            "image_link": "shopify:\/\/products\/short-sleeve-t-shirt-white"
+          }
+        },
+        "image_FF99EG": {
+          "type": "image",
+          "settings": {
+            "image_container": "shopify:\/\/shop_images\/hmgoepprod-_1__1.png",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_B3Gcfn",
+        "image_i7YJyC",
+        "image_FF99EG"
+      ],
+      "settings": {
+        "layout-title": ""
+      }
     }
   },
   "order": [
@@ -345,6 +372,7 @@
     "multicolumn",
     "product-recommendations",
     "82c6a802-903e-43d5-8c0f-9b97559db994",
-    "6c91571a-2d57-417b-a560-becbb0e8c1e7"
+    "6c91571a-2d57-417b-a560-becbb0e8c1e7",
+    "three_layer_image_layout_TbnRVD"
   ]
 }
