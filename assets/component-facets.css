@@ -269,6 +269,7 @@
   width: 35rem;
   max-height: 55rem;
   overflow-y: auto;
+  font-size: 17px;
 }
 
 .facets__header {
