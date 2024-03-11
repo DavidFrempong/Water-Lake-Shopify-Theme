@@ -361,6 +361,9 @@
         "image_i7YJyC",
         "image_FF99EG"
       ],
+      "custom_css": [
+        ".section-container{background: #ffffff;}"
+      ],
       "settings": {
         "layout-title": "Style with"
       }
