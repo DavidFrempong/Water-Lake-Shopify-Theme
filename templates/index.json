@@ -211,6 +211,7 @@
     },
     "16640590680b2f70f3": {
       "type": "image-collage",
+      "disabled": true,
       "settings": {
         "image_collage_grid": "4",
         "imagetext": "Radiant",
@@ -382,17 +383,20 @@
         "image_czVW4c": {
           "type": "image",
           "settings": {
-            "image_link": ""
+            "image_container": "shopify:\/\/shop_images\/hmgoepprod-_1__1.png",
+            "image_link": "shopify:\/\/products\/oversized-t-shirt"
           }
         },
         "image_mUkzRE": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_link": ""
           }
         },
         "image_NPN43G": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image_link": ""
           }
@@ -452,8 +456,9 @@
         "image_QMiVFH"
       ],
       "settings": {
-        "image_link": "",
-        "content_layout": "row",
+        "single_image": "shopify:\/\/shop_images\/hmgoepprod_1_03dcec39-97b1-4f55-bdc1-17148b90acc6.png",
+        "image_link": "shopify:\/\/products\/oversized-t-shirt",
+        "content_layout": "row-reverse",
         "content_layout_mobile": "column",
         "layout-title": "Shop the look."
       }
