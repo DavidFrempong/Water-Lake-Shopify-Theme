@@ -953,7 +953,7 @@ input.mobile-facets__checkbox {
 @media screen and (min-width: 1000px) {
   .product-count__text {
    position: relative;
-   top: 10px;
+   top: 15px;
 }
 }
 
