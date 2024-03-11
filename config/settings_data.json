@@ -192,8 +192,7 @@
       "header": {
         "type": "header",
         "custom_css": [
-          ".header,a,span,svg {\/* font-family: system-ui !important; *\/ font-weight: 500; color: #515151;}",
-          "span,a {font-size: 15px;}"
+
         ],
         "settings": {
           "color_scheme": "background-1",
