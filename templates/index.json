@@ -373,21 +373,21 @@
           "type": "image",
           "settings": {
             "image_container": "shopify:\/\/shop_images\/4_c1e26288-8243-46d6-b98a-d5facc3de665.png",
-            "image_link": ""
+            "image_link": "shopify:\/\/products\/short-sleeve-t-shirt-white"
           }
         },
         "image_aDc77e": {
           "type": "image",
           "settings": {
             "image_container": "shopify:\/\/shop_images\/1.png",
-            "image_link": ""
+            "image_link": "shopify:\/\/products\/short-sleeve-t-shirt-white"
           }
         },
         "image_bRwFcV": {
           "type": "image",
           "settings": {
             "image_container": "shopify:\/\/shop_images\/2.png",
-            "image_link": ""
+            "image_link": "shopify:\/\/products\/short-sleeve-t-shirt-white"
           }
         }
       },
