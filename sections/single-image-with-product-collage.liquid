@@ -112,7 +112,12 @@
             sectionContainer.style.width = '40vw';
             sectionContainer.style.position = 'fixed';
             sectionContainer.style.top = '0px';
+         {% if section.settings.content_layout == 'Image On Left Side, Collage On Right Side' %}
             sectionContainer.style.right = '0px';
+         {%- endif -%}
+         {% if section.settings.content_layout == 'Collage On Left Side, Image On Right Side' %}
+            sectionContainer.style.left = '0px';
+         {%- endif -%}
         } 
         // Check if the bottom of large-image is in view
         else if (imageRect.bottom > 0 && imageRect.bottom < window.innerHeight) {
