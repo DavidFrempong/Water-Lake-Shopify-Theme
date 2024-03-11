@@ -5,6 +5,7 @@
       "blocks": {
         "template--17982117052734__96101fb8-9d8f-41a8-afa1-139e52fd9d12-1676951338216ef73d-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/hmgoepprod_1_03dcec39-97b1-4f55-bdc1-17148b90acc6.png",
             "heading": "Quick, take a pic.",
@@ -26,6 +27,7 @@
         },
         "e96e9c36-6460-4829-9076-3b0d9a93ea5d": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/young-man-portrait.jpg",
             "heading": "Comfort fit.",

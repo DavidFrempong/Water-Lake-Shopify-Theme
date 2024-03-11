@@ -108,8 +108,8 @@
             "type": "announcement",
             "settings": {
               "text": "SAVE AN EXTRA 15% ON ORDERS OVER $100",
-              "background_color": "#195458",
-              "announcement_text_color": "#ffffff",
+              "background_color": "#f3f3f3",
+              "announcement_text_color": "#1e1e1e",
               "text_alignment": "center",
               "color_scheme": "accent-1",
               "link": "https:\/\/www.etsy.com\/shop\/Zqdo?ref=seller-platform-mcnav"
