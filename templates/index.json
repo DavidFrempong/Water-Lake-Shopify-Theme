@@ -389,8 +389,8 @@
         },
         "image_mUkzRE": {
           "type": "image",
-          "disabled": true,
           "settings": {
+            "image_container": "shopify:\/\/shop_images\/hmgoepprod_2.png",
             "image_link": ""
           }
         },
@@ -458,7 +458,7 @@
       "settings": {
         "single_image": "shopify:\/\/shop_images\/hmgoepprod_1_03dcec39-97b1-4f55-bdc1-17148b90acc6.png",
         "image_link": "shopify:\/\/products\/oversized-t-shirt",
-        "content_layout": "row-reverse",
+        "content_layout": "row",
         "content_layout_mobile": "column",
         "layout-title": "Shop the look."
       }
