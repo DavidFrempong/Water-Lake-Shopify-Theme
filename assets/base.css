@@ -3201,7 +3201,7 @@ details-disclosure > details {
   }
 }
 
-@keyframes slidein {
+/* @keyframes slidein {
   from {
     filter: brightness(0);
   }
@@ -3209,7 +3209,7 @@ details-disclosure > details {
   to {
     filter: brightness(0.7);
   }
-}
+} */
 
 .slideshow__media {
   /* filter: brightness(0.7) !important; */
