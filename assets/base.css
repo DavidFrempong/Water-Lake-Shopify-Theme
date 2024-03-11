@@ -3212,7 +3212,7 @@ details-disclosure > details {
 }
 
 .slideshow__media {
-  filter: brightness(0.7) !important;
+  /* filter: brightness(0.7) !important; */
 }
 
 .field__input {
