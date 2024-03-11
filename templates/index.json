@@ -322,7 +322,7 @@
           "type": "button",
           "settings": {
             "button_label": "Men",
-            "button_link": "shopify:\/\/products\/mens-beard-oil",
+            "button_link": "shopify:\/\/collections",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
