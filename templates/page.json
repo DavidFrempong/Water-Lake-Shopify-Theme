@@ -43,7 +43,7 @@
       ],
       "settings": {
         "hero_height": "50vh",
-        "image": "shopify:\/\/shop_images\/young-man-portrait.jpg",
+        "image": "shopify:\/\/shop_images\/navy-pants-and-white-shirt-men-s-fashion.jpg",
         "background": "#000000",
         "text_color": "#ffffff",
         "opacity": 25,
@@ -53,10 +53,21 @@
     "about_section_kK3xhp": {
       "type": "about-section",
       "blocks": {
+        "image_zVgLwf": {
+          "type": "image",
+          "settings": {
+            "individual_image_heading": "John Smith",
+            "individual_image_subheading": "CEO",
+            "individual_image_link_one": "",
+            "individual_image_link_two": "",
+            "individual_image_link_three": ""
+          }
+        },
         "image_dbtn73": {
           "type": "image",
           "settings": {
-            "individual_image_heading": "Tyler Jones",
+            "image": "shopify:\/\/shop_images\/jean-shorts-woman.jpg",
+            "individual_image_heading": "Clarissa Lewis",
             "individual_image_subheading": "CEO",
             "individual_image_link_one": "https:\/\/www.instagram.com\/shopify\/",
             "individual_image_link_two": "https:\/\/twitter.com\/Shopify",
@@ -65,6 +76,7 @@
         }
       },
       "block_order": [
+        "image_zVgLwf",
         "image_dbtn73"
       ],
       "settings": {
