@@ -85,7 +85,7 @@ text-align: right;
 </style>
 
 {% assign opacity = section.settings.opacity | divided_by: 100.00 %}
-<div class="product-highlight product-highlight-aligned--{{ section.settings.info_alignment }} product-highlight-height--{{ section.settings.hero_height }}" style="background-color: {{section.settings.background | color_modify: 'alpha', opacity}}">
+<div class="product-highlight product-highlight-aligned--{{ section.settings.info_alignment }} product-highlight-height--{{ section.settings.hero_height }}" style="background-color: {{section.settings.background}}">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -124,7 +124,7 @@ text-align: right;
 							</p>
 						{%- when 'button' -%}
 							{%- if block.settings.button_label != blank -%}
-							<button @click="addToCart" class="product-highlight__button" style="background-color: {{section.settings.button-background | color_modify: 'alpha', opacity}}; color: {{section.settings.button_text_color}}">
+							<button @click="addToCart" class="product-highlight__button" style="background-color: {{section.settings.button-background}}; color: {{section.settings.button_text_color}}">
 								{% assign button_title = block.settings.button_label | escape %}
 								{% assign product_url = block.settings.button_link  %}
 								 {{ block.settings.button_label }} </button>

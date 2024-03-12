@@ -449,7 +449,7 @@
         "button_QyBpGf": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Shop now",
             "button_link": "shopify:\/\/products\/short-sleeve-t-shirt-white"
           }
         }
@@ -462,8 +462,10 @@
       "settings": {
         "hero_height": "100vh",
         "image": "shopify:\/\/shop_images\/hmgoepprod-_4_302c959a-cc3c-4cae-b2bb-76fcaf95bee7.png",
-        "background": "#000000",
+        "background": "#ffffff",
         "text_color": "#000000",
+        "button-background": "#262626",
+        "button_text_color": "#ffffff",
         "opacity": 0,
         "info_alignment": "center"
       }
