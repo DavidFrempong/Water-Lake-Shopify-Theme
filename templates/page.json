@@ -227,6 +227,7 @@
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-0",
         "template--17982117216574__cf0c5a9d-1817-4414-be34-a662a746092d-16774478876026612c-1"
       ],
+      "disabled": true,
       "custom_css": [
         "h3 {font-weight: 600; font-size: 25px;}"
       ],
@@ -247,8 +248,8 @@
         "button {border-radius: 30px;}"
       ],
       "settings": {
-        "heading": "Questions? Get in touch",
-        "heading_size": "h1",
+        "heading": "Sign up and get 20% off at checkout.",
+        "heading_size": "h2",
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -260,14 +261,14 @@
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Join us on our journey<\/p>",
+            "heading": "<p>So, why wait?<\/p>",
             "heading_size": "h2"
           }
         },
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1": {
           "type": "text",
           "settings": {
-            "text": "<p>We're glad to have you with us. Feel free to reach out if you ever have any questions.<\/p>"
+            "text": "<p>Join our community of style enthusiasts today and unlock a world of exclusive benefits. Sign up now and let's embark on this fashion journey together!<\/p>"
           }
         }
       },
