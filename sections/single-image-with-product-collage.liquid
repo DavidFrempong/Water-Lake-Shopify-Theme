@@ -102,24 +102,22 @@
      if (window.innerWidth >= 800) {
     var sectionContainer = document.getElementsByClassName('section-container')[0];
     var largeImage = document.getElementsByClassName('large-image')[0];
-    console.log(largeImage)
     var sectionRect = sectionContainer.getBoundingClientRect();
     var imageRect = largeImage.getBoundingClientRect();
-    console.log(imageRect)
     // Check if the top of large-image is above the viewport
        if (imageRect.top > -565 && imageRect.top < 0) {
             largeImage.style.width = '60vw';
             sectionContainer.style.width = '40vw';
             sectionContainer.style.position = 'fixed';
             sectionContainer.style.top = '0px';
-         {% if section.settings.content_layout == 'Image On Left Side, Collage On Right Side' %}
-            sectionContainer.style.right = '0px';
-           console.log("right");
-         {%- endif -%}
-         {% if section.settings.content_layout == 'Collage On Left Side, Image On Right Side' %}
-            sectionContainer.style.left = '0px';
-           console.log("left");
-         {%- endif -%}
+         // {% if section.settings.content_layout == 'Image On Left Side, Collage On Right Side' %}
+         //    sectionContainer.style.right = '0px';
+         //   console.log("right");
+         // {%- endif -%}
+         // {% if section.settings.content_layout == 'Collage On Left Side, Image On Right Side' %}
+         //    sectionContainer.style.left = '0px';
+         //   console.log("left");
+         // {%- endif -%}
         } 
         // Check if the bottom of large-image is in view
         else if (imageRect.bottom > 0 && imageRect.bottom < window.innerHeight) {
