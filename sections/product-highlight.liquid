@@ -124,7 +124,7 @@ text-align: right;
 							</p>
 						{%- when 'button' -%}
 							{%- if block.settings.button_label != blank -%}
-							<button @click="addToCart" class="product-highlight__button">
+							<button @click="addToCart" class="product-highlight__button" style="background-color: {{section.settings.button-background | color_modify: 'alpha', opacity}}; color: {{section.settings.button_text_color}}">
 								{% assign button_title = block.settings.button_label | escape %}
 								{% assign product_url = block.settings.button_link  %}
 								 {{ block.settings.button_label }} </button>
@@ -222,13 +222,25 @@ text-align: right;
 			"type": "color",
 			"id": "background",
 			"label": "Background Color",
-			"default": "#000000"
+			"default": "#ffffff"
 		},
 		{
 			"type": "color",
 			"id": "text_color",
 			"label": "Text Color",
-			"default": "#FFFFFF"
+			"default": "#0a0a0a"
+		},
+       {
+			"type": "color",
+			"id": "button-background",
+			"label": "Button Background Color",
+			"default": "#0a0a0a"
+		},
+        {
+			"type": "color",
+			"id": "button_text_color",
+			"label": "Button Text Color",
+			"default": "#ffffff"
 		},
 		{
 			"type": "range",
