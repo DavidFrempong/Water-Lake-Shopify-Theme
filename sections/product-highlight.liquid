@@ -4,189 +4,200 @@
 <script src="{{ 'vue.min.js' | asset_url }}"></script>
 
 <style>
-	.product-highlight{
-		/* background: black; */
-		/* padding: 100px 0; */
-		margin-top: 70px;
-      align-items: center;
-    display: flex;
-	}
-	.product-highlight__img{
-		width: 100%;
-      max-width: 450px;
-		height: auto;
-	}
-	.product-highlight__info-container h2{
-		/* font-size: 2rem; */
-		color: white;
-      margin: 10px 0px;
-	}
-	.product-highlight__paragraph{
-		font-size: 1.2rem;
-		line-height: 1.4;
-		color: white;
-      margin: 10px 0px;
-	}
-	.product-highlight__button{
-		background: white;
-		border: none;
-      border-radius: 20px;
-		padding: 15px 40px;
-	}
+  	.product-highlight{
+  		/* background: black; */
+  		/* padding: 100px 0; */
+  		margin-top: 70px;
+        align-items: center;
+      display: flex;
+  	}
+  	.product-highlight__img{
+  		width: 100%;
+        max-width: 450px;
+  		height: auto;
+  	}
+  	.product-highlight__info-container h2{
+  		/* font-size: 2rem; */
+  		color: white;
+        margin: 20px 0px;
+  	}
+  	.product-highlight__paragraph{
+  		font-size: 1.2rem;
+  		line-height: 1.4;
+  		color: white;
+        width: 70%;
+        margin: 0 auto;
+        margin: 20px 0px;
+  	}
+  	.product-highlight__button{
+  		background: white;
+  		border: none;
+        border-radius: 20px;
+  		padding: 15px 40px;
+  	}
 
-	.product-highlight__title--sm {
-   		font-size: 1.5rem;
-	}
-.product-highlight__title--md {
-    font-size: 2rem;
-}
-.product-highlight__title--lg {
-    font-size: 4.5rem;
-}
-.product-highlight__title--xl {
-    font-size: 6rem;
-}
-
-.product-highlight-aligned--left{
-text-align: left;
-}
-
-.product-highlight-aligned--center{
-text-align: center;
-}
-
-.product-highlight-aligned--right{
-text-align: right;
-}
-
-.product-highlight-height--25vh{
-	height: 25vh;
-}
-
-.product-highlight-height--50vh{
-	height: 50vh;
-}
-
-.product-highlight-height--75vh{
-	height: 75vh;
-}
-
-.product-highlight-height--100vh{
-	height: 100vh;
-}
-
-  .info{
-    padding-top: 10%;
+  	.product-highlight__title--sm {
+     		font-size: 1.5rem;
+  	}
+  .product-highlight__title--md {
+      font-size: 2rem;
+  }
+  .product-highlight__title--lg {
+      font-size: 4.5rem;
+  }
+  .product-highlight__title--xl {
+      font-size: 6rem;
   }
 
-  @media screen and (max-width: 760px) {
-  .product-highlight__img{
-		width: 70%;
-	}
-}
+  .product-highlight-aligned--left{
+  text-align: left;
+  }
 
+  .product-highlight-aligned--center{
+  text-align: center;
+  }
+
+  .product-highlight-aligned--right{
+  text-align: right;
+  }
+
+  .product-highlight-height--25vh{
+  	height: 25vh;
+  }
+
+  .product-highlight-height--50vh{
+  	height: 50vh;
+  }
+
+  .product-highlight-height--75vh{
+  	height: 75vh;
+  }
+
+  .product-highlight-height--100vh{
+  	height: 100vh;
+  }
+
+    .info{
+      padding-top: 10%;
+    }
+
+    @media screen and (max-width: 760px) {
+    .product-highlight__img{
+  		width: 70%;
+  	}
+  }
 </style>
 
 {% assign opacity = section.settings.opacity | divided_by: 100.00 %}
-<div class="product-highlight product-highlight-aligned--{{ section.settings.info_alignment }} product-highlight-height--{{ section.settings.hero_height }}" style="background-color: {{section.settings.background}}">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-				{%- if section.settings.image != blank -%}
-					<img srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | img_url: '165x' }} 165w,{%- endif -%}
-						{%- if section.settings.image.width >= 360 -%}{{ section.settings.image | img_url: '360x' }} 360w,{%- endif -%}
-						{%- if section.settings.image.width >= 535 -%}{{ section.settings.image | img_url: '535x' }} 535w,{%- endif -%}
-						{%- if section.settings.image.width >= 720 -%}{{ section.settings.image | img_url: '720x' }} 720w,{%- endif -%}
-						{%- if section.settings.image.width >= 940 -%}{{ section.settings.image | img_url: '940x' }} 940w,{%- endif -%}
-						{%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | img_url: '2000x' }} 2000w{%- endif -%}"
-						src="{{ section.settings.image | img_url: '533x' }}"
-						sizes="(min-width: 1100px) 2000px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
-						alt="{{ section.settings.image.alt | escape }}"
-						loading="lazy"
-						width="{{ section.settings.image.width }}"
-						height="{{ section.settings.image.height }}"
-						class="product-highlight__img"
-					>
-				{%- else -%}
-					{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
-				{%- endif -%}
-			</div>
-			<div class="col-md-6 info">
-				<div class="product-highlight__info-container">
-					
-					{%- for block in section.blocks -%}
-					{% case block.type %}
-						{%- when 'heading' -%}
-							<h2 class="product-highlight__title product-highlight__title--{{- block.settings.title_size -}}" style="color: {{section.settings.text_color}}">
-							 
-								{{ block.settings.title | escape }}</h2>
-						{%- when 'paragraph' -%}
-							<p class="product-highlight__paragraph"
-							style="color: {{section.settings.text_color}}">
-								{{ block.settings.paragraph | escape }}
-							</p>
-						{%- when 'button' -%}
-							{%- if block.settings.button_label != blank -%}
-							<button @click="addToCart" class="product-highlight__button" style="background-color: {{section.settings.button-background}}; color: {{section.settings.button_text_color}}">
-								{% assign button_title = block.settings.button_label | escape %}
-								{% assign product_url = block.settings.button_link  %}
-								 {{ block.settings.button_label }} </button>
-							{%- endif -%}
-					{%- endcase -%}
-				{%- endfor -%}
-				</div>
-			</div>
-		</div>
-	</div>
-	
+<div
+  class="product-highlight product-highlight-aligned--{{ section.settings.info_alignment }} product-highlight-height--{{ section.settings.hero_height }}"
+  style="background-color: {{section.settings.background}}"
+>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        {%- if section.settings.image != blank -%}
+          <img
+            srcset="
+              {%- if section.settings.image.width >= 165 -%}{{ section.settings.image | img_url: '165x' }} 165w,{%- endif -%}
+              {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | img_url: '360x' }} 360w,{%- endif -%}
+              {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | img_url: '535x' }} 535w,{%- endif -%}
+              {%- if section.settings.image.width >= 720 -%}{{ section.settings.image | img_url: '720x' }} 720w,{%- endif -%}
+              {%- if section.settings.image.width >= 940 -%}{{ section.settings.image | img_url: '940x' }} 940w,{%- endif -%}
+              {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | img_url: '2000x' }} 2000w{%- endif -%}
+            "
+            src="{{ section.settings.image | img_url: '533x' }}"
+            sizes="(min-width: 1100px) 2000px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+            alt="{{ section.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+            class="product-highlight__img"
+          >
+        {%- else -%}
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        {%- endif -%}
+      </div>
+      <div class="col-md-6 info">
+        <div class="product-highlight__info-container">
+          {%- for block in section.blocks -%}
+            {% case block.type %}
+              {%- when 'heading' -%}
+                <h2
+                  class="product-highlight__title product-highlight__title--{{- block.settings.title_size -}}"
+                  style="color: {{section.settings.text_color}}"
+                >
+                  {{ block.settings.title | escape }}
+                </h2>
+              {%- when 'paragraph' -%}
+                <p
+                  class="product-highlight__paragraph"
+                  style="color: {{section.settings.text_color}}"
+                >
+                  {{ block.settings.paragraph | escape }}
+                </p>
+              {%- when 'button' -%}
+                {%- if block.settings.button_label != blank -%}
+                  <button
+                    @click="addToCart"
+                    class="product-highlight__button"
+                    style="background-color: {{section.settings.button-background}}; color: {{section.settings.button_text_color}}"
+                  >
+                    {% assign button_title = block.settings.button_label | escape %}
+                    {% assign product_url = block.settings.button_link %}
+                    {{ block.settings.button_label }}
+                  </button>
+                {%- endif -%}
+            {%- endcase -%}
+          {%- endfor -%}
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
-
-
 <script>
-	const productHighlight = Vue.createApp({
-		delimiters: ['${', '}'],
-		created() {
-			fetch('{{product_url}}.js')
-			.then(res => res.json())
-			.then((data) => {
-				this.product_id = data.variants[0].id
-				console.log(this.product_id)
-			})
-		},
-		methods: {
-			addToCart() {
-				console.log('clicked Button to add to cart')
-				fetch('/cart/add.js', {
-					body: JSON.stringify({
-						'id': this.product_id,
-						'quantity': 1
-					}),
-					credentials: 'same-origin',
-					headers: {
-						'Content-Type': 'application/json',
-						'X-Requested-With': 'xmlhttprequest'
-					},
-					method: 'POST'
-				}).then(function (response) {
-					return response.json();
-				}).then(function (json) {
-					console.log(json)
-				}).catch(function (err) {
-					console.error(err)
-				});
-			}
-		},
-		data() {
-			return {
-				button_title: '{{ button_title }}',
-				product_id: ''
-			}
-		}
-	}).mount('.product-highlight')
+  const productHighlight = Vue.createApp({
+  	delimiters: ['${', '}'],
+  	created() {
+  		fetch('{{product_url}}.js')
+  		.then(res => res.json())
+  		.then((data) => {
+  			this.product_id = data.variants[0].id
+  			console.log(this.product_id)
+  		})
+  	},
+  	methods: {
+  		addToCart() {
+  			console.log('clicked Button to add to cart')
+  			fetch('/cart/add.js', {
+  				body: JSON.stringify({
+  					'id': this.product_id,
+  					'quantity': 1
+  				}),
+  				credentials: 'same-origin',
+  				headers: {
+  					'Content-Type': 'application/json',
+  					'X-Requested-With': 'xmlhttprequest'
+  				},
+  				method: 'POST'
+  			}).then(function (response) {
+  				return response.json();
+  			}).then(function (json) {
+  				console.log(json)
+  			}).catch(function (err) {
+  				console.error(err)
+  			});
+  		}
+  	},
+  	data() {
+  		return {
+  			button_title: '{{ button_title }}',
+  			product_id: ''
+  		}
+  	}
+  }).mount('.product-highlight')
 </script>
-
-
 
 {% schema %}
 {
