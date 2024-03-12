@@ -56,18 +56,19 @@
         "heading_pnmVDj": {
           "type": "heading",
           "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
         "text_dNzppp": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>At Water Lake, we believe in offering our customers more than just great fashion. <\/p><p><\/p><p>We want to create a community of style enthusiasts who are always one step ahead of the fashion game. That's why we invite you to become a member and unlock a world of exclusive benefits.<\/p>"
           }
         },
         "button_ftb9Wp": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -76,12 +77,29 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "heading_TkXqcf": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<h2>Stay Informed with New Product Releases<\/h2>",
+            "heading_size": "h1"
+          }
+        },
+        "text_mD8gER": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>As a member, you'll be the first to know about our latest product releases. Whether it's a limited edition collection or a must-have item, you'll receive alerts straight to your inbox. <\/p><p>Say goodbye to FOMO (fear of missing out) and be the trendsetter among your friends.<\/p>"
+          }
         }
       },
       "block_order": [
         "heading_pnmVDj",
         "text_dNzppp",
-        "button_ftb9Wp"
+        "button_ftb9Wp",
+        "heading_TkXqcf",
+        "text_mD8gER"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -90,6 +108,53 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "image_with_text_eJkEGC": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aiPAf9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Informed with New Product Releases",
+            "heading_size": "h2"
+          }
+        },
+        "text_4y6NMM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As a member, you'll be the first to know about our latest product releases. <\/p><p>Whether it's a limited edition collection or a must-have item, you'll receive alerts straight to your inbox. Say goodbye to FOMO (fear of missing out) and be the trendsetter among your friends.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_9XhqR8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_aiPAf9",
+        "text_4y6NMM",
+        "button_9XhqR8"
+      ],
+      "settings": {
+        "background_color": "#FFF3E7",
+        "button_text_color": "#0a0a0a",
+        "image": "shopify:\/\/shop_images\/hmgoepprod_2.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "about_section_kK3xhp": {
@@ -227,6 +292,7 @@
     "main",
     "1660938307a9913a0a",
     "rich_text_iEzeC7",
+    "image_with_text_eJkEGC",
     "about_section_kK3xhp",
     "cf0c5a9d-1817-4414-be34-a662a746092d",
     "151d5214-157e-484f-a9fa-0a84af8d9c21",
