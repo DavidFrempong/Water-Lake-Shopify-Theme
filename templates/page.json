@@ -53,16 +53,6 @@
     "about_section_kK3xhp": {
       "type": "about-section",
       "blocks": {
-        "image_zVgLwf": {
-          "type": "image",
-          "settings": {
-            "individual_image_heading": "John Smith",
-            "individual_image_subheading": "CEO",
-            "individual_image_link_one": "",
-            "individual_image_link_two": "",
-            "individual_image_link_three": ""
-          }
-        },
         "image_dbtn73": {
           "type": "image",
           "settings": {
@@ -70,14 +60,27 @@
             "individual_image_heading": "Clarissa Lewis",
             "individual_image_subheading": "CEO",
             "individual_image_link_one": "https:\/\/www.instagram.com\/shopify\/",
+            "button_link_image_one": "shopify:\/\/shop_images\/Instagram.svg",
             "individual_image_link_two": "https:\/\/twitter.com\/Shopify",
+            "individual_image_link_three": ""
+          }
+        },
+        "image_zVgLwf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/woman-in-fashionable-dungarees.jpg",
+            "individual_image_heading": "Bradelia Jones",
+            "individual_image_subheading": "Creative Director",
+            "individual_image_link_one": "",
+            "button_link_image_one": "shopify:\/\/shop_images\/Instagram.svg",
+            "individual_image_link_two": "",
             "individual_image_link_three": ""
           }
         }
       },
       "block_order": [
-        "image_zVgLwf",
-        "image_dbtn73"
+        "image_dbtn73",
+        "image_zVgLwf"
       ],
       "settings": {
         "heading": "Meet the Owner"
