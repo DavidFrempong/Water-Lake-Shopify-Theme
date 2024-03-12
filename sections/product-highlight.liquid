@@ -6,7 +6,7 @@
 <style>
 	.product-highlight{
 		/* background: black; */
-		padding: 100px 0;
+		/* padding: 100px 0; */
 		
 	}
 	.product-highlight__img{
@@ -69,6 +69,10 @@ text-align: right;
 	height: 100vh;
 }
 
+  .info{
+    padding-top: 10%;
+  }
+
 </style>
 
 {% assign opacity = section.settings.opacity | divided_by: 100.00 %}
@@ -95,7 +99,7 @@ text-align: right;
 					{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
 				{%- endif -%}
 			</div>
-			<div class="col-md-6">
+			<div class="col-md-6 info">
 				<div class="product-highlight__info-container">
 					
 					{%- for block in section.blocks -%}
