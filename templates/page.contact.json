@@ -85,6 +85,7 @@
         "row_rW3Hy3"
       ],
       "custom_css": [
+        ".multirow{padding-top: 0px;}",
         ".multirow__inner {background-color: #f1ebdf;}",
         "p {color: #e50010; margin-bottom: 10px; font-size: 17px;}",
         "h2 {font-size: 25px;}"
