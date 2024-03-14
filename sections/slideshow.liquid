@@ -91,18 +91,18 @@
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}">
           {%- if block.settings.image -%}
             <img
-              srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 }} 375w,{%- endif -%}
-              {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
-              {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
-              {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | image_url: width: 1100 }} 1100w,{%- endif -%}
-              {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
-              {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | image_url: width: 1780 }} 1780w,{%- endif -%}
-              {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | image_url: width: 2000 }} 2000w,{%- endif -%}
-              {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | image_url: width: 3000 }} 3000w,{%- endif -%}
-              {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | image_url: width: 3840 }} 3840w,{%- endif -%}
-              {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+              srcset="{%- if block.settings.image.width >= 375 -%}{{ block.settings.image | image_url: width: 375 | image_tag  }} 375w,{%- endif -%}
+              {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 | image_tag  }} 550w,{%- endif -%}
+              {%- if block.settings.image.width >= 750 -%}{{ block.settings.image | image_url: width: 750 | image_tag  }} 750w,{%- endif -%}
+              {%- if block.settings.image.width >= 1100 -%}{{ block.settings.image | image_url: width: 1100 | image_tag  }} 1100w,{%- endif -%}
+              {%- if block.settings.image.width >= 1500 -%}{{ block.settings.image | image_url: width: 1500 | image_tag  }} 1500w,{%- endif -%}
+              {%- if block.settings.image.width >= 1780 -%}{{ block.settings.image | image_url: width: 1780 | image_tag  }} 1780w,{%- endif -%}
+              {%- if block.settings.image.width >= 2000 -%}{{ block.settings.image | image_url: width: 2000 | image_tag  }} 2000w,{%- endif -%}
+              {%- if block.settings.image.width >= 3000 -%}{{ block.settings.image | image_url: width: 3000 | image_tag  }} 3000w,{%- endif -%}
+              {%- if block.settings.image.width >= 3840 -%}{{ block.settings.image | image_url: width: 3840 | image_tag  }} 3840w,{%- endif -%}
+              {{ block.settings.image | image_url | image_tag  }} {{ block.settings.image.width }}w"
               sizes="100vw"
-              src="{{ block.settings.image | image_url: width: 1500 }}"
+              src="{{ block.settings.image | image_url: width: 1500 | image_tag  }}"
               loading="lazy"
               alt="{{ block.settings.image.alt | escape }}"
               width="{{ block.settings.image.width }}"
