@@ -86,7 +86,8 @@
       ],
       "custom_css": [
         ".multirow__inner {background-color: #f1ebdf;}",
-        "p{color: #e50010;}"
+        "p {color: #e50010; margin-bottom: 10px; font-sizE: 17px;}",
+        "h2{font-size: 25px;}"
       ],
       "settings": {
         "image_height": "medium",
