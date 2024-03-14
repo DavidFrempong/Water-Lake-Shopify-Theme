@@ -44,7 +44,7 @@
             "heading": "Where is my order?",
             "text": "",
             "button_label": "Track my order",
-            "button_link": ""
+            "button_link": "https:\/\/water-lake.myshopify.com\/"
           }
         },
         "row_reybM7": {
@@ -54,7 +54,7 @@
             "heading": "How do I return my WaterLake order?",
             "text": "",
             "button_label": "Return order",
-            "button_link": ""
+            "button_link": "https:\/\/water-lake.myshopify.com\/"
           }
         },
         "row_nGm9Ff": {
@@ -64,7 +64,7 @@
             "heading": "Can I cancel or change my WaterLake order?",
             "text": "",
             "button_label": "Learn more",
-            "button_link": ""
+            "button_link": "https:\/\/water-lake.myshopify.com\/"
           }
         },
         "row_rW3Hy3": {
@@ -86,8 +86,8 @@
       ],
       "custom_css": [
         ".multirow__inner {background-color: #f1ebdf;}",
-        "p {color: #e50010; margin-bottom: 10px; font-sizE: 17px;}",
-        "h2{font-size: 25px;}"
+        "p {color: #e50010; margin-bottom: 10px; font-size: 17px;}",
+        "h2 {font-size: 25px;}"
       ],
       "settings": {
         "image_height": "medium",
