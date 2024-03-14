@@ -47,6 +47,16 @@
     "multirow_6qdyDE": {
       "type": "multirow",
       "blocks": {
+        "row_DHhcFy": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
         "row_reybM7": {
           "type": "row",
           "settings": {
@@ -79,6 +89,7 @@
         }
       },
       "block_order": [
+        "row_DHhcFy",
         "row_reybM7",
         "row_nGm9Ff",
         "row_rW3Hy3"
