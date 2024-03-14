@@ -146,6 +146,7 @@
       ],
       "custom_css": [
         ".image-with-text {background-color: #ffffff;}",
+        ".image-with-text__grid{width: 70%; margin: 0 auto;}",
         ".image-with-text__content {background-color: #f1ebdf;}",
         ".image-with-text__text {color: #0a0a0a;}",
         "h2 {color: #e50010;}"
