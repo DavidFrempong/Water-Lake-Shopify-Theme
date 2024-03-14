@@ -102,7 +102,7 @@
         "text_mD8gER"
       ],
       "custom_css": [
-        "h2 {color: #bb3333;}"
+        "h2 {color: #e50010;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -145,7 +145,8 @@
         "button_9XhqR8"
       ],
       "custom_css": [
-        ".image-with-text {background-color: #ffffff;}"
+        ".image-with-text {background-color: #ffffff;}",
+        "h2 {color: #e50010;}"
       ],
       "settings": {
         "background_color": "#fff3e7",
