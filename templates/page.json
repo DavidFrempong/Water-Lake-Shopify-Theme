@@ -146,6 +146,8 @@
       ],
       "custom_css": [
         ".image-with-text {background-color: #ffffff;}",
+        ".image-with-text__content {background-color: #f1ebdf;}",
+        ".image-with-text__text {color: #0a0a0a;}",
         "h2 {color: #e50010;}"
       ],
       "settings": {
@@ -154,11 +156,11 @@
         "image": "shopify:\/\/shop_images\/hmgoepprod-_1__1.png",
         "height": "small",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "layout": "text_first",
+        "desktop_content_position": "bottom",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
-        "color_scheme": "accent-1",
+        "color_scheme": "background-2",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
