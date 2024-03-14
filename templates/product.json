@@ -362,7 +362,7 @@
         "image_FF99EG"
       ],
       "custom_css": [
-        ".section-container {background: #ffffff; margin-bottom: 50px;}"
+        ".section-container {background: #ffffff; padding-bottom: 50px;}"
       ],
       "settings": {
         "layout-title": "Style with"
