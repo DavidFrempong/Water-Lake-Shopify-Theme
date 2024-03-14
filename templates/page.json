@@ -199,6 +199,7 @@
         "image_dbtn73",
         "image_zVgLwf"
       ],
+      "disabled": true,
       "settings": {
         "heading": "Team Members"
       }
@@ -252,6 +253,7 @@
     },
     "151d5214-157e-484f-a9fa-0a84af8d9c21": {
       "type": "contact-form",
+      "disabled": true,
       "custom_css": [
         "h2 {text-align: center;}",
         ".field__input {border: none;}",
@@ -261,6 +263,80 @@
         "heading": "Sign up and get 20% off at checkout.",
         "heading_size": "h2",
         "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "collapsible_content_gCFByy": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_mBD73D": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "What do I need to know before signing up?",
+            "icon": "apple",
+            "row_content": "<p>It is an all-digital loyalty program where you'll get points on all your shopping, both in store and online. You'll also get special offers, rewards, exclusive event invitations and much more.  <br\/><br\/>Here you'll find all your digital receipts from your store and online purchases within 45 minutes.<\/p><p>Our membership is completely free of charge but you have to be 16 years old to become a member.<\/p><p>Your member ID can be found on your account page.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_4C8eii": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How do I earn points?",
+            "icon": "apple",
+            "row_content": "<p>Every purchase you make is rewarded with points. To earn points in-store, always remember to scan your member ID via the WaterLake app. <\/p><p>Your points will be displayed in your account, which can take up to 24 hours to updated.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_3eEbFm": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I find my rewards?",
+            "icon": "apple",
+            "row_content": "<p>You will receive updated information about your current offers and rewards on your account page in your WaterLake app or on waterlake.com. <\/p><p>Please note that a redeemed discount reward cannot be returned and reused, and if you return an item the points you earned for that item will be deducted from your account.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_r8bRAP": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "How can I spend my bonus?",
+            "icon": "apple",
+            "row_content": "<p>Your Bonus can be applied both at the checkout online by choosing <strong>Add to Bag<\/strong>, or in store by choosing <strong>Use in Store<\/strong>. Please note that choosing Use in store will start a 15 minute count down in which the voucher must be used. <\/p><p>The Bonus amount is spread evenly across each item in your purchase, not on the total amount. This means if you return something you will be given a refund for the amount you paid for each individual item. <\/p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_Q4pUEC": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Where can I find my member account?",
+            "icon": "apple",
+            "row_content": "<p>The member ID is found under My Account.<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_mBD73D",
+        "collapsible_row_4C8eii",
+        "collapsible_row_3eEbFm",
+        "collapsible_row_r8bRAP",
+        "collapsible_row_Q4pUEC"
+      ],
+      "custom_css": [
+        "h2 {color: #e50010;}"
+      ],
+      "settings": {
+        "caption": "What would you like to know?",
+        "heading": "FAQ",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -287,7 +363,8 @@
         "template--17982117216574__10d13fd9-3511-474d-b6a3-1ab144fe6437-167745082070b793b9-1"
       ],
       "custom_css": [
-        ".rich-text {background: #1d1d1d;}"
+        ".rich-text {background: #1d1d1d;}",
+        "h2 {color: #e50010;}"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -307,6 +384,7 @@
     "about_section_kK3xhp",
     "cf0c5a9d-1817-4414-be34-a662a746092d",
     "151d5214-157e-484f-a9fa-0a84af8d9c21",
+    "collapsible_content_gCFByy",
     "10d13fd9-3511-474d-b6a3-1ab144fe6437"
   ]
 }
