@@ -327,7 +327,7 @@
         "h2 {color: #e50010;}",
         "h3 {font-size: 16px; position: relative; top: 7px;}",
         ".collapsible-content {background-color: #f8f8f8;}",
-        "svg {width: 25px;}"
+        "svg {width: 25px; color: #e50010; fill: #e50010;}"
       ],
       "settings": {
         "caption": "What would you like to know?",
