@@ -43,58 +43,11 @@
         "padding_top": 40,
         "padding_bottom": 40
       }
-    },
-    "ba3ea448-08aa-4d68-9e51-a869bca8fc8d": {
-      "type": "rich-text",
-      "blocks": {
-        "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Join us on our journey<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>We're glad to have you with us. Feel free to reach out if you ever have any questions.<\/p>"
-          }
-        },
-        "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-0",
-        "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-1",
-        "template--17982117413182__ba3ea448-08aa-4d68-9e51-a869bca8fc8d-167745224949c6fddc-2"
-      ],
-      "custom_css": [
-        ".rich-text {background: #1d1d1d;}"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
     }
   },
   "order": [
     "main",
     "1664339526b36dbc16",
-    "form",
-    "ba3ea448-08aa-4d68-9e51-a869bca8fc8d"
+    "form"
   ]
 }
