@@ -56,8 +56,8 @@
         "heading_pnmVDj": {
           "type": "heading",
           "settings": {
-            "heading": "",
-            "heading_size": "h1"
+            "heading": "<p><strong>The Benefits<\/strong><\/p>",
+            "heading_size": "h2"
           }
         },
         "text_dNzppp": {
