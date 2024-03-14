@@ -375,11 +375,11 @@
       </details-modal> -->
     {%- endif -%}
 
-    <!-- Middle L Header View  -->
+    <!-- Middle Left Header View  -->
     
     {%- if section.settings.logo_position != 'middle-center' -%}
       {%- if request.page_type == 'index' -%}
-        <h1 class="header__heading">
+        <h1>
       {%- endif -%}
         <div class="desktop-logo{% if section.settings.logo_position == 'middle-left' %} no-margin{% endif %}">
           <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
