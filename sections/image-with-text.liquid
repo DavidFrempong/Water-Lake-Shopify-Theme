@@ -22,7 +22,7 @@
       >
         {%- if section.settings.image != blank -%}
           <img
-            srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 | image_tag }} 165w,{%- endif -%}
+            srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
               {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 | image_tag }} 360w,{%- endif -%}
               {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 | image_tag  }} 535w,{%- endif -%}
               {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 | image_tag  }} 750w,{%- endif -%}
