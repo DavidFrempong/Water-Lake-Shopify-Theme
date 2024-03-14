@@ -85,7 +85,8 @@
         "row_rW3Hy3"
       ],
       "custom_css": [
-        ".multirow__inner {background-color: #f1ebdf;}"
+        ".multirow__inner {background-color: #f1ebdf;}",
+        "p{color: #e50010;}"
       ],
       "settings": {
         "image_height": "medium",
