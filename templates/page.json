@@ -101,6 +101,9 @@
         "heading_TkXqcf",
         "text_mD8gER"
       ],
+      "custom_css": [
+        "h2 {color: #bb3333;}"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
