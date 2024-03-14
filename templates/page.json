@@ -142,13 +142,13 @@
         "button_9XhqR8"
       ],
       "custom_css": [
-        ".image-with-text{background-color: #ffffff;}"
+        ".image-with-text {background-color: #ffffff;}"
       ],
       "settings": {
-        "background_color": "#FFF3E7",
+        "background_color": "#fff3e7",
         "button_text_color": "#0a0a0a",
         "image": "shopify:\/\/shop_images\/hmgoepprod_2.png",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
