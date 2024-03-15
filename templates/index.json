@@ -461,7 +461,7 @@
         "button_QyBpGf"
       ],
       "custom_css": [
-        "@media screen and (max-width: 750px) {.row{width: 90%; margin: 0 auto; }}"
+        "@media screen and (max-width: 750px) {.row {width: 90%; margin: 0 auto; }}"
       ],
       "settings": {
         "hero_height": "100vh",
