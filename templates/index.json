@@ -381,6 +381,7 @@
         "template--17982117052734__92bc159b-f29d-4ffa-831d-7d6d48ae02ce-button-1",
         "6580c5c3-9445-4030-89b5-2bec9e938635"
       ],
+      "disabled": true,
       "custom_css": [
         ".rich-text {background: #f3f3f3; color: #0a0a0a;}",
         "span {color: #0a0a0a; font-size: 15px;}",
@@ -505,6 +506,44 @@
         "opacity": 0,
         "info_alignment": "center"
       }
+    },
+    "slideshow_K7VVg3": {
+      "type": "slideshow",
+      "blocks": {
+        "slide_fwJ89q": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pexels-mitch-lally-15031646.jpg",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "heading_color": "#000000",
+            "subheading": "Tell your brand's story through images",
+            "subheading_color": "#0a0a0a",
+            "button_label": "Button Label",
+            "link": "",
+            "button_background_color": "#FFFFFF",
+            "button_text_color": "#000000",
+            "button_style_secondary": false,
+            "box_align": "middle-right",
+            "show_text_box": true,
+            "text_alignment": "right",
+            "image_overlay_opacity": 0,
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "slide_fwJ89q"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "small",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -516,6 +555,7 @@
     "92bc159b-f29d-4ffa-831d-7d6d48ae02ce",
     "three_layer_image_layout_XhQkxy",
     "22061fd9-f01c-4b98-a458-6c30cca4e9cf",
-    "product_highlight_Q3qX9j"
+    "product_highlight_Q3qX9j",
+    "slideshow_K7VVg3"
   ]
 }
