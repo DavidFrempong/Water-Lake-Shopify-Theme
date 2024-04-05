@@ -211,6 +211,11 @@
     },
     "featured_collection_Gca8i8": {
       "type": "featured-collection",
+      "custom_css": [
+        ".grid {justify-content: center;}",
+        ".collection__title {text-align: center;}",
+        ".title{font-size: 25px;}"
+      ],
       "settings": {
         "title": "60% off best sellers",
         "heading_size": "h2",
