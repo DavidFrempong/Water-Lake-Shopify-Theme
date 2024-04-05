@@ -50,7 +50,7 @@
         "slide_8LQx4N": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/CashmereSale_5706_1.png",
+            "image": "shopify:\/\/shop_images\/pexels-mitch-lally-15031645_1.jpg",
             "heading": "Quick, take a pic.",
             "heading_size": "h1",
             "heading_color": "#ffffff",
@@ -214,7 +214,7 @@
       "custom_css": [
         ".grid {justify-content: center;}",
         ".collection__title {text-align: center;}",
-        ".title{font-size: 25px;}"
+        ".title {font-size: 25px;}"
       ],
       "settings": {
         "title": "60% off best sellers",
