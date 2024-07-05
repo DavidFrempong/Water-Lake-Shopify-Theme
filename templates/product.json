@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -234,6 +243,54 @@
         "padding_bottom": 20
       }
     },
+    "image_with_text_iRwyQ8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DE4jXG": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_ktNRXz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>{{ product.metafields.custom.product_page_current_customer.value.customer_name.value }}<\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_VF96f6": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "heading_DE4jXG",
+        "text_ktNRXz",
+        "button_VF96f6"
+      ],
+      "settings": {
+        "background_color": "#FFF3E7",
+        "button_text_color": "#0a0a0a",
+        "image": "{{ product.metafields.custom.product_page_current_customer.value.customer_image.value }}",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "82c6a802-903e-43d5-8c0f-9b97559db994": {
       "type": "collection-list",
       "blocks": {
@@ -374,6 +431,7 @@
     "5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6",
     "multicolumn",
     "product-recommendations",
+    "image_with_text_iRwyQ8",
     "82c6a802-903e-43d5-8c0f-9b97559db994",
     "6c91571a-2d57-417b-a560-becbb0e8c1e7",
     "three_layer_image_layout_TbnRVD"
