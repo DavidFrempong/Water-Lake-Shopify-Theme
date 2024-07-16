@@ -243,6 +243,24 @@
         "padding_bottom": 20
       }
     },
+    "1721094344ba4e1291": {
+      "type": "apps",
+      "blocks": {
+        "pumper_bundle_qty_app_block_8fG7ei": {
+          "type": "shopify:\/\/apps\/pumper-bundle-qty\/blocks\/app-block\/0856870d-2aca-4b1e-a662-cf1797f61270",
+          "settings": {
+            "selected_product": "{{product}}",
+            "using_page_builder": false
+          }
+        }
+      },
+      "block_order": [
+        "pumper_bundle_qty_app_block_8fG7ei"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "image_with_text_iRwyQ8": {
       "type": "image-with-text",
       "blocks": {
@@ -275,8 +293,9 @@
         "text_ktNRXz",
         "button_VF96f6"
       ],
+      "disabled": true,
       "settings": {
-        "background_color": "#FFF3E7",
+        "background_color": "#fff3e7",
         "button_text_color": "#0a0a0a",
         "image": "{{ product.metafields.custom.product_page_current_customer.value.customer_image.value }}",
         "height": "adapt",
@@ -431,6 +450,7 @@
     "5d9e6cdb-9b43-4e17-bc6b-c415f6e4ece6",
     "multicolumn",
     "product-recommendations",
+    "1721094344ba4e1291",
     "image_with_text_iRwyQ8",
     "82c6a802-903e-43d5-8c0f-9b97559db994",
     "6c91571a-2d57-417b-a560-becbb0e8c1e7",
